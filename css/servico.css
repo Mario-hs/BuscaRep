@@ -1,0 +1,77 @@
+.novaPagina {
+  height: 850px;
+  width: 95%;
+}
+.middle{
+  position: relative;
+  top: 40%;
+  left: 450px;
+  transform: translate(-50%, -50%);
+}
+.task-list{
+  width: 800px;
+  padding: 40px;
+  background-image: linear-gradient(120deg, #8e44ad, #2980b9);
+  background-size: cover;
+}  
+.task-list h2{
+  color: #fff;
+  text-transform: uppercase;
+}
+.task{
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+  cursor: pointer;
+}
+.task input{
+  position: absolute;
+  visibility: hidden;
+}
+.task i{
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  text-align: center;
+  line-height: 48px;
+  font-size: 20px;
+  margin-right: 14px;
+  color: transparent;
+}
+.text, .text-2{
+  font-size: 25px;
+  color: #fff;
+}
+.text-2{
+  margin-inline-start: auto;
+}
+
+.task input:checked ~ i{
+  color: #2980b9;
+}
+.task input:checked ~.text{
+  color: #2980b9;
+}
+.task input:checked ~.text-2{
+  color: #8e44ad;
+}
+h1{
+ color: #fff; 
+ text-align: center;
+}
+.bots{
+  display: inline-flex;
+}
+.bots input{
+  position: relative;
+  margin: 50px 125px auto;
+  width: 150px;
+}
+.barraHorizontal{
+  height: 700px;
+}
+.barra-lateral{
+  min-height: 800px;
+}

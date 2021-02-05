@@ -1,0 +1,16 @@
+.termos{
+    background-color: #ffff;
+    text-align: justify;
+    padding: 50px;
+}
+h2{
+    padding: 20px;
+}
+h4{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.voltar{
+    margin: 50px auto auto ;
+    text-align-last: center;
+}

@@ -1,0 +1,121 @@
+.container {
+    position: inherit;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 20px 0px;
+}
+.cont{
+    width: 79%;
+    clear: left;
+    float: right;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 20px 0px;
+}
+.darker{
+    border-color: #ccc;
+    background-color: #ddd;
+}
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.cont-perfil img, .cont img, .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+.time-right {
+    float: right;
+    color: #aaa;
+}
+.time-left {
+    float: left;
+    color: #999;
+}
+.conv{
+    position: absolute;
+    height: inherit;
+    background-image: linear-gradient(120deg, #8e44ad, #2980b9);
+    border-radius: 30px;
+    width: 320px;
+}
+.chat{
+    width: 700px;
+    margin-left: 33%;
+    position: relative;
+    height: 650px;
+    border: solid;
+    border-radius: 30px;
+    border-width: 2px;
+}
+.barra-lateral{
+    height: 1100px;
+}
+.barraHorizontal{
+    height: 1000px;
+}
+.caixa-msg{
+    margin: 0px auto auto 30%;
+    width: 750px;
+}
+.box{
+    height: 720px;
+    width: 1000px;
+}
+.botao-chat{
+    border: solid;
+    width: 90px;
+    height: 30px;
+    border-width: 2px;
+    margin: 10px 5px auto auto;
+}
+.enviar{
+    height: 20px;
+    width: 550px;
+    margin: 10px 20px auto 30px;
+    position: inherit;
+    border: solid;
+    border-width: 2px;
+}
+.msg-botao{
+    display: inline-block;
+}
+.task{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    float: right;
+}
+.chat-lateral{
+    width: 200px;
+    height: 40px;
+}
+.img-chat{
+    width: 30px;
+}
+.cont-perfil{
+    height: 60px;
+    display: block;
+    margin: 20px 5px 10px 20px;
+}
+.cont-perfil img{
+    margin-right: 5px;
+    float: left;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
